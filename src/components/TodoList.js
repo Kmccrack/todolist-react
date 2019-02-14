@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import Todo from './Todo'
 
 class TodoList extends Component {
+    state = {
+        todolist: [ "todo "]
+    }
+
+
     render() {
         return (
             <div>
